@@ -1,3 +1,3 @@
-- 👋 Hi, I’m @ulas119
-- 👀 I’m interested in ...
+- 👋 Hi, I’m @Ulas et
+- 👀 I’m interested in veri bilimi
 - 🌱 I’m currently learning  python
