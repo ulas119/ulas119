@@ -1,0 +1,90 @@
+# İLK PİN = 9967 İKİNCİ PİN= 3192
+import time
+print("ATm")
+while("true"):
+    pin = int(input(" pin giriniz: "))
+    if pin == 9967:
+        print("hoşgeldiniz ulaş bank a")
+        print("<1> para geri çekme")
+        print("<2> para transferi")
+        print("<3> pin değiştirme")
+        print("<4> bakiye değiştirme")
+        print("<5> yatırım yapmak")
+        print("<6> çıkış")
+        choice = int(input(" Tercih :"))
+        if choice == 1:
+            print("<1> tasarruf ")
+            print("<2> kredi")
+            print("<3> borçlar ")
+            pr = int(input("tercih:"))
+            if pr == 1:
+              
+                  cash=int(input("nakit toplamı:"))
+                  balance = 60000 - nakit
+                  
+                  if balance <= 0:
+                      print ("ERROR \} BAKİYE YOK")
+        
+        
+                      
+                  else:
+                      print(f"bal = {denge}")
+                  
+                  
+                
+            elif pr == 2:
+                cash2 = int(input("para :"))
+                credits = 60000-nakit2
+                if credits <= 0:
+                    print("ERROR \n", "Yeterli Bakiye yok")
+                  
+                  
+                else:
+                    print(f"bal = {kredi}:")
+           
+            elif pr == 3:
+              cash3 = int(input("parayı gir:"))
+              bal = 60000 - nakit3
+              print(f"bal = {bal}")
+              print("Teşekkürler")
+            
+        elif choice == 2:
+            recevier = input("isim giriniz:")
+            pin_code = int(input("pin :"))
+            if pin_code == 3192:
+                amount = int(input("miktarı girin: "))
+                print("umut teşekkürler diliyor 💸")
+                print("Teşekkürler")
+                
+            else:
+              print("yanlış pin kodu!")
+        elif choice == 3:
+            eski = int(input("eski  pin"))
+            yeni = int(input("yeni pin"))
+             
+        elif choice == 4:
+            print("bal = 60000")
+            print("teşekkürler")
+             
+        elif choice == 6:
+            print("")
+            print("*************************")
+            print ("kodumu beğenmeyi unutmayın")
+            break
+            
+        elif choice == 5:
+            pin_co_de=int (input("pin:"))
+            if pin == 9967:
+              input("kime yatırım yapacaksınız ")
+              am = int(input("Miktar:"))
+              time.sleep (1)
+              print ("bitti")
+              print ("ulaş baba bankasını kullandığınız için teşekkür ederiz")
+              print("Teşekürler")
+            else:
+              print("geçersiz pin kodu!")
+          
+             
+    else:
+        print("geçersiz pin kodu! Tekrar deneyin") 
+        
